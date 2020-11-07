@@ -7,7 +7,7 @@ This project is the first of possibly many attempts to see if a CNNs can accompl
 
 The Train-chair-style.ipynb notebook features a smaller problem of training a CNN to distinguish and classify 5 different styles of chairs, namely 'Farmhouse', 'Industrial', 'MidCentury', 'Tropical', and 'Victorian'. 
 
-The input is a fairly small data set of about ~2200 net pictures of chairs that belong to 5 categories. Source: https://cvml.comp.nus.edu.sg/furniture/index.html
+The input is a fairly small data set of about ~1400 net pictures of chairs that belong to 5 categories. Source: https://cvml.comp.nus.edu.sg/furniture/index.html
 
 I will use transfer learning on MobilenetV2 trained on Imagenet data, and fine tune it.
 
