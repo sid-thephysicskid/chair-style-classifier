@@ -1,15 +1,21 @@
-# Chair_Style_classifier
 
-As a hobbyist woodworker, I can't help but drool everytime I come across a handcut dovetail joint of a keepsake box, or delectable tenons of a handcrafted chair. What's not trivially obvious sometimes, is the style of a piece of furniture or the period whence its inspired from. 
-Sure its easier to tell a victorian chair from a contemporary chair, but is the contemporary chair 'mid century modern' or 'art deco'? Or does it draw some inspirations from a shaker period? Thought it'd be a fun project to explore if a machine can learn to classify such subtle features that go beyond mere geometrical features of two chairs.
+# Inspiration
+As a hobbyist woodworker, I can't help but drool everytime I come across dovetail joints of a keepsake box, or delectable tenons of a handcrafted chair. What's not trivially obvious sometimes, is the style of a piece of furniture or the period whence its inspired from. 
 
-This project is the first of possibly many attempts to see if a CNNs can accomplish the task. Intuitively, I expect this project to go into the realms of Fine-Grain Image classification, using Bilinear CNNs (BCNNs) but I'll start with something simpler first.
+Figured it'd be a fun project to explore if a machine can learn to classify furniture styles, for example distinguish a 'midcentury desk' from a 'farmhouse desk'. This would be more involved than standard cat vs dog classifiers because the distinctions between furniture styles relies on more subtle features that go beyond mere geometry and shape.
 
-The Train-chair-style.ipynb notebook features a smaller problem of training a CNN to distinguish and classify 5 different styles of chairs, namely 'Farmhouse', 'Industrial', 'MidCentury', 'Tropical', and 'Victorian'. 
+This project is the first attempt to see if a CNN can accomplish the task. Intuitively, I expect this project to go into the realms of Fine-Grain Image classification, using Bilinear CNNs (BCNNs) but I'll start with something simpler first.
 
-The input is a fairly small data set of about ~1400 net pictures of chairs that belong to 5 categories. Source: https://cvml.comp.nus.edu.sg/furniture/index.html
+# Project
+The Train-chair-style.ipynb notebook features a smaller problem of training a CNN to distinguish and classify 4 different styles of chairs, namely 'Farmhouse', 'Industrial', 'MidCentury', and 'Tropical'.
+
+The input is a fairly small data set of about less than 1400 pictures of chairs that belong to those 4 categories, more or less equally distributed amongst the 4 classes. Source: https://cvml.comp.nus.edu.sg/furniture/index.html
 
 I will use transfer learning on MobilenetV2 trained on Imagenet data, and fine tune it.
 
-Since mere validation accuracy would be a poor predictor for a multi-class image classification such as this, the performance metric will be multi-class logarithmic loss. A confusion matrix should help in visualizing the performance. 
+Since mere validation accuracy would be a poor predictor for a multi-class image classification such as this, a confusion matrix should help in visualizing the performance. 
 
+(Perhaps include the multi-class logarithmic loss?)
+
+# Deployment 
+Flask + AWS? Maybe Streamlit? 
