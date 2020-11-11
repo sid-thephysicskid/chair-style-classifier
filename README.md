@@ -9,7 +9,7 @@ This project is the first attempt to see if a CNN can accomplish the task. Intui
 # Project
 The Train-chair-style.ipynb notebook features a smaller problem of training a CNN to distinguish and classify 4 different styles of chairs, namely 'Farmhouse', 'Industrial', 'MidCentury', and 'Tropical'.
 
-The input is a fairly small data set of about less than 1400 pictures of chairs that belong to those 4 categories, more or less equally distributed amongst the 4 classes. Source: https://cvml.comp.nus.edu.sg/furniture/index.html
+The input is a fairly small data set of about 1900 pictures of chairs that belong to those 4 categories, more or less equally distributed amongst the 4 classes. Source: https://cvml.comp.nus.edu.sg/furniture/index.html
 
 I will use transfer learning on MobilenetV2 trained on Imagenet data, and fine tune it.
 
@@ -18,4 +18,4 @@ Since mere validation accuracy would be a poor predictor for a multi-class image
 (Perhaps include the multi-class logarithmic loss?)
 
 # Deployment 
-Flask + AWS? Maybe Streamlit? 
+Flask + AWS? 
