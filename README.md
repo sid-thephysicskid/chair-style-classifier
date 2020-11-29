@@ -1,4 +1,4 @@
-
+##--Work in progress
 # Inspiration
 As a hobbyist woodworker, I can't help but drool everytime I come across dovetail joints of a keepsake box, or delectable tenons of a handcrafted chair. What's not trivially obvious sometimes, is the style of a piece of furniture or the period whence its inspired from. 
 
