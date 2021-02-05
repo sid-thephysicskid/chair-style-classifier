@@ -1,6 +1,6 @@
 ##--Work in progress
 # Inspiration
-As a hobbyist woodworker, I can't help but drool everytime I come across dovetail joints of a keepsake box, or delectable tenons of a handcrafted chair. What's not trivially obvious sometimes, is the style of a piece of furniture or the period whence its inspired from. 
+As a hobbyist woodworker, I can't help but drool everytime I come across dovetail joints of a keepsake box, or delectable tenons of a handcrafted chair. However, the style of a piece of furniture or the period whence its inspired from, it is not trivially obvious. (This begs the question, what is the human level performance on this task? Qualitatively poor, quantitatively I can't say. Something to think about) 
 
 Figured it'd be a fun project to explore if a machine can learn to classify furniture styles, for example distinguish a 'midcentury desk' from a 'farmhouse desk'. This would be more involved than standard cat vs dog classifiers because the distinctions between furniture styles relies on more subtle features that go beyond mere geometry and shape.
 
